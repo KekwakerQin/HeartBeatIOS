@@ -11,7 +11,7 @@ import SwiftUI
 struct HeartBeatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HeartBeat3D()
         }
     }
 }

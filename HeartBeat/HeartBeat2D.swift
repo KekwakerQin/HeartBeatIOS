@@ -7,7 +7,7 @@
 import AVFoundation
 import SwiftUI
 
-struct ContentView: View {
+struct HeartBeat2D: View {
     @State private var position: CGSize = .zero // Позиция объекта
     @State private var dragOffset: CGSize = .zero // Смещение во время жеста
     @State private var isAnimating = false
@@ -43,5 +43,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    HeartBeat2D()
 }
